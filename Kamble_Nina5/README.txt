@@ -23,16 +23,16 @@ Actions:
 • Rainbow Brains!
 	o Add this zombie to the front, then add one of each zombie color to 	the end of the conga line.
 • Making new Friends!
-	o Find the first Zombie of this color in line. “Flip a coin” 50% 	chance of adding before or after that zombie.
-	o If no Zombie of that color exists, add this one before the Tail 	zombie
+	o Find the first Zombie of this color in line. “Flip a coin” 50% chance of adding before or after that zombie.
+	o If no Zombie of that color exists, add this one before the Tail zombie
 • Unstable Zombie
 	o Walk the list to locate the first Zombie of this color in line and
 	remove it.
 	o As you walk the list: the first zombie of each color before that
 	splits and adds a new zombie before them.
-  G  R  B  R  Y  C  G
- Generate C
-  G  G  R  R  B  B  R  Y  Y  G
+ G -> R -> B -> R -> Y -> C -> G
+Generate C
+ G -> G -> R -> R -> B -> B -> R -> Y -> Y -> G
 Every 5 rounds remove the Head zombie and Tail zombie.
 
 User Interface:
