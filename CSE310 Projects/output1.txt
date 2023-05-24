@@ -1,0 +1,6 @@
+MST Kruskal Algorithm Result
+
+X              <--->   Y               =       10
+Y              <--->   Z               =       12
+=================================================
+Total Distance: 22
